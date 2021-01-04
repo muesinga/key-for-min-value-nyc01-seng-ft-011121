@@ -7,5 +7,6 @@ name_hash.each do | key, int |
   if int < smallest_value then
     int = smallest_value
   end
+  p int
 end
 end
